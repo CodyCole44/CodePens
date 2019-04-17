@@ -1,0 +1,71 @@
+
+body{
+    background-color:#939393;
+  }
+  .app{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:900px;
+    color:white;
+  }
+  .calcualtorContainer{
+    height:350px;
+    width:310px;
+    background-color:black;
+    border:1px solid #707070;
+  }
+  .output{
+    height:70px;
+  }
+  .buttonRow{
+    display:flex;
+    margin-left:5px;
+  }
+  
+  .numButton{
+    background-color:#5b5b5b;
+    border:1px solid black;
+    height:55px;
+    width:75px;
+    color:white;
+  }
+  Button:hover{
+    color:black;
+    border:1px solid #a5a5a5;
+  }
+  .resetButton{
+    background-color:#a33535;
+    border:1px solid black;
+    color:white;
+    height:55px;
+    width:150px;
+  }
+  .zero{
+    width:150px;
+  }
+  .equals{
+    border:1px solid black;
+    height:110px;
+    position:absolute;
+    width:75px;
+    background-color:#333f9b;
+    color:white;
+  }
+  .operatorButton{
+    background-color:#8e8e8e;
+    border:1px solid black;
+    height:55px;
+    width:75px;
+    color:white;
+  }
+  .outputContainer{
+    text-align:right;
+    font-family: 'Orbitron';
+    margin-right:10px;
+  }
+  .calculatedValue{
+    margin-top:20px;
+    font-size:25px;
+    
+  }
