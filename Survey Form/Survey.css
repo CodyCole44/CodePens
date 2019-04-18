@@ -1,0 +1,70 @@
+body{
+    background-color:#669899;
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align:center;
+    color:#424242;
+  }
+  
+  #form-container{
+    background-color:#f2f2f2;
+    width: 60%;
+    border-radius:5px;
+    margin:auto;
+    
+  }
+  #description{
+    padding-top:20px;
+  }
+  .rowTab{
+    margin-bottom:7px;
+  }
+  .rightTab{
+    display:inline-block;
+    width:50%;
+    text-align:left;
+  }
+  .labels{
+    display:inline-block;
+    width:35%;
+    padding:3px;
+    text-align:right;
+    vertical-align:top;
+  }
+  .text-input{
+    display:inline-block;
+    height:30px;
+    width:45%;
+    margin-bottom:5px;
+    border-radius:2px;
+    border: 1px solid #c0c0c0;
+    
+  }
+  .dropdown{
+    width:150px;
+    padding-left:5px;
+  
+  }
+  input{
+    padding-left:7px;
+  }
+  li{
+    list-style-type:none;
+    padding-bottom:5px;
+  }
+  ul{
+    margin-left:-40px;
+    vertical-align:top;
+  }
+  .select-label{
+    margin-top:8px;
+  }
+  #submit{
+    margin-bottom:20px;
+    height:35px;
+    width:90px;
+    color:#ffffff;
+    background-color:#7fd6ff;
+    border:none;
+    border-radius:5px;
+  }
+  

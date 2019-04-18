@@ -1,0 +1,103 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!Doctype html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <div id ="form-container">
+      <p id="description">Let us know how we can improve CFU</p>
+        <form id="survey-form">
+          <div class="rowTab">
+            <label id="name-label" for="name"class="labels">* Name: </label>
+            <div class="rightTab">
+            <input type="text" id="name" class="text-input" placeholder="Enter your name"required>
+            </div>
+          </div>
+          <div class="rowTab">
+            <label id="email-label" for="email" class="labels">* Email: </label>
+            <div class="rightTab">
+            <input type="email" id="email" class="text-input" placeholder="Enter your Email" required>
+            </div>
+          </div>
+          <div class="rowTab">
+            <label id="number-label" for="number" class="labels">* Age: </label>
+            <div class="rightTab">
+            <input id="number" type="number" class="text-input" placeholder="Age" min="1" max="120" required>
+            </div>
+          </div>
+          <div class="rowTab">
+            <label id="dropdown-label" for="dropdown" class="labels">What option best describes your current role?</label>
+            <div class="rightTab">
+            <select id="dropdown"class="text-input dropdown">
+                <option value="student">Student</option>
+                <option value="fullTimeJob">Full Time Job</option>
+              <option value="fullTimeLearner">Full Time Learner</option>
+              <option value="preferNotToSay">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+            </div>
+          </div>
+          <div class="rowTab">
+            <label id="recommend-label" for="radio" class="labels select-label" >* How likley is that you would recommend freeCodeCamp to a friend?</label>
+            <div class="rightTab">
+              <ul class="recommend">
+                <li>
+                  <label for="definitely" name="recommend">
+                  <input type="radio" name="recommend" id="definitely" value="definitely" required>Definitely</input>
+                </li>
+                <li>
+                  <label for="maybe" name="recommend">
+                  <input type="radio" name="recommend" id="maybe" value="maybe">Maybe</input>
+                </li>
+                <li>
+                  <label for="notSure" name="recommend">
+                  <input type="radio" name="recommend" id="notSure" value="notSure">Not Sure</input>
+                </li>
+            </div>
+          </div>
+            <div class="rowTab">
+              <label id="like-dropdown-label" for="like-dropdown" class="labels">What do you like most in FCC:</label>
+              <div class="rightTab">
+                <select id="like-dropdown" class="text-input dropdown" >
+                  <option value="" disabled selected>Select Option</option>
+                  <option value="challenges">Challenges</option>
+                  <option value="projects">Project</option>
+                </select>
+              </div>
+            </div>
+            <div class="rowTab">
+              <label id="checkbox-label" for="checkbox" class="labels select-label">Things that should be improved in the future (Check all that apply):</label>
+                <div class="rightTab">
+                  <ul>
+                    <li>              
+                      <input type="checkbox" name="checkbox" value="frontend">
+                      <label for="frontend" name="checkbox">Front-end Projects</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="checkbox" value="backend">
+                      <label for="backend" name="checkbox">Back-end Projects</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="checkbox" value="data">
+                      <label for="data" name="checkbox">Data Visualization</label>
+                    </li>
+                    <li>
+                      <input type="checkbox" name="checkbox" value="challenges">
+                      <label for="challenges" name="checkbox">Challenges</label>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+            <div class="rowTab">
+              <label id="text-area-label" for="text-area" class="labels">Any Comments or Suggestions?</label>
+              <div class="rightTab">
+                <textarea name="text-area" rows="4" cols="40"placeholder="Enter your comment here..."></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+  </body>
+</html>
